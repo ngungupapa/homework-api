@@ -48,4 +48,6 @@ urlpatterns = [
     path('updatesubject/', updatesubject),
 
     path('deleteenroll/<str:pk>/', deleteenroll),
+    # path('enroll', enroll),
+
 ]

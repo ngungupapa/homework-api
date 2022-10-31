@@ -146,3 +146,12 @@ def deleteenroll(request, pk):
 	enroll.delete()
 
 	return Response('Delete successful!')
+
+# @api_view(['GET', ])
+# @permission_classes([IsAuthenticated])
+# def enroll(request):
+
+#     if request.method == 'GET':
+#         data = EnrollInfo.objects.all()
+#         serializers = EnrollSerializer(data, many=True)
+#         return Response(serializers.data)
